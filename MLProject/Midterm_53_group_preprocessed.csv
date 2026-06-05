@@ -1,0 +1,100 @@
+Time,Source,No.,Destination,Protocol,Length,Info
+0.0,192.167.8.166,1,192.167.255.255,NBNS,92,Name query NB WPAD<00>
+0.784682,192.167.8.166,2,192.167.255.255,NBNS,92,Name query NB WPAD<00>
+1.16906,VMware_8a:5c:e6,3,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+2.167949,VMware_8a:5c:e6,4,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+3.170095,VMware_8a:5c:e6,5,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+8.846485,VMware_8a:5c:e6,6,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+9.848273,VMware_8a:5c:e6,7,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+10.850213,VMware_8a:5c:e6,8,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+16.530105,VMware_8a:5c:e6,9,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+17.53204,VMware_8a:5c:e6,10,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+18.53405,VMware_8a:5c:e6,11,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+24.466177,VMware_8a:5c:e6,12,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+25.468158,VMware_8a:5c:e6,13,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+26.4701,VMware_8a:5c:e6,14,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+28.757397,VMware_8a:a0:c6,15,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+28.757405,VMware_8a:a0:c6,16,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+29.118205,VMware_8a:a0:c6,17,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+29.12013,VMware_8a:a0:c6,18,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+29.120131,VMware_8a:a0:c6,19,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+29.120317,VMware_8a:a0:c6,20,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+29.151733,VMware_8a:a0:c6,21,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+29.151738,VMware_8a:a0:c6,22,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+29.152383,VMware_8a:a0:c6,23,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+29.323471,VMware_8a:5c:e6,24,Broadcast,ARP,60,Who has 192.167.0.1? Tell 0.0.0.0
+29.757136,VMware_8a:a0:c6,25,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+30.033472,192.167.6.248,26,192.167.255.255,BROWSER,243,"Host Announcement DESKTOP-099UQRG, Workstation, Server, NT Workstation"
+30.323602,VMware_8a:5c:e6,27,Broadcast,ARP,60,Who has 192.167.0.1? Tell 0.0.0.0
+30.583281,fe80::a4bd:8816:f7b7:d782,28,ff02::1,ICMPv6,86,Neighbor Advertisement fe80::a4bd:8816:f7b7:d782 (ovr) is at 00:50:56:8a:a0:c6
+30.75743,VMware_8a:a0:c6,29,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+31.757558,VMware_8a:a0:c6,30,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+32.401672,VMware_8a:5c:e6,31,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+33.403662,VMware_8a:5c:e6,32,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+33.757757,VMware_8a:a0:c6,33,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+34.40591,VMware_8a:5c:e6,34,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+36.07628,VMware_8a:a0:c6,35,Broadcast,ARP,60,Who has 169.254.246.7? (ARP Probe)
+36.686571,192.167.8.160,36,192.167.255.255,NBNS,92,Name query NB WPAD<00>
+36.758006,VMware_8a:a0:c6,37,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+37.076779,VMware_8a:a0:c6,38,Broadcast,ARP,60,Who has 169.254.246.7? (ARP Probe)
+37.435604,192.167.8.160,39,192.167.255.255,NBNS,92,Name query NB WPAD<00>
+37.822733,192.167.8.170,40,192.167.255.255,NBNS,92,Name query NB ISATAP<00>
+37.822764,192.167.8.170,41,192.167.255.255,NBNS,92,Name query NB ISATAP<00>
+38.08432,VMware_8a:a0:c6,42,Broadcast,ARP,60,Who has 169.254.246.7? (ARP Probe)
+38.2446,192.167.8.160,43,192.167.255.255,NBNS,92,Name query NB WPAD<00>
+38.631324,192.167.8.170,44,192.167.255.255,NBNS,92,Name query NB ISATAP<00>
+38.631389,192.167.8.170,45,192.167.255.255,NBNS,92,Name query NB ISATAP<00>
+38.899245,0.0.0.0,46,255.255.255.255,DHCP,364,DHCP Request  - Transaction ID 0x10174903
+39.084263,VMware_8a:a0:c6,47,Broadcast,ARP,60,Who has 192.167.7.175? (ARP Probe)
+39.391501,192.167.8.170,48,192.167.255.255,NBNS,92,Name query NB ISATAP<00>
+39.407122,192.167.8.170,49,192.167.255.255,NBNS,92,Name query NB ISATAP<00>
+39.473232,VMware_8a:65:fb,50,Broadcast,RARP,60,Who is 00:50:56:8a:65:fb? Tell 00:50:56:8a:65:fb
+39.774424,192.167.7.175,51,192.167.255.255,NBNS,110,Registration NB DESKTOP-099UQRG<00>
+39.775034,192.167.7.175,52,192.167.255.255,NBNS,110,Registration NB WORKGROUP<00>
+39.92604,192.167.8.65,53,192.167.255.255,NBNS,92,Name query NB WPAD<00>
+40.084386,VMware_8a:a0:c6,54,Broadcast,ARP,60,Who has 192.167.7.175? (ARP Probe)
+40.333436,VMware_8a:5c:e6,55,Broadcast,ARP,60,Who has 192.167.7.175? Tell 192.167.0.1
+40.537579,192.167.7.175,56,192.167.255.255,NBNS,110,Registration NB WORKGROUP<00>
+40.716283,192.167.8.65,57,192.167.255.255,NBNS,92,Name query NB WPAD<00>
+41.08431,VMware_8a:a0:c6,58,Broadcast,ARP,60,Who has 192.167.7.175? (ARP Probe)
+41.287687,192.167.7.175,59,192.167.255.255,NBNS,110,Registration NB WORKGROUP<00>
+41.371932,192.167.7.175,60,192.167.255.255,NBNS,110,Registration NB DESKTOP-099UQRG<20>
+41.487074,192.167.8.65,61,192.167.255.255,NBNS,92,Name query NB WPAD<00>
+41.758316,VMware_8a:a0:c6,62,Broadcast,RARP,60,Who is 00:50:56:8a:a0:c6? Tell 00:50:56:8a:a0:c6
+42.053164,192.167.7.175,63,192.167.255.255,NBNS,110,Registration NB WORKGROUP<00>
+42.084144,VMware_8a:a0:c6,64,Broadcast,ARP,60,ARP Announcement for 192.167.7.175
+42.531677,192.167.7.157,65,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.531767,192.167.7.157,66,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538248,192.167.7.157,67,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538251,192.167.7.157,68,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538517,192.167.7.157,69,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.53852,192.167.7.157,70,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538522,192.167.7.157,71,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538524,192.167.7.157,72,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538797,192.167.7.157,73,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538799,192.167.7.157,74,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538802,192.167.7.157,75,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538804,192.167.7.157,76,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538806,192.167.7.157,77,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.538808,192.167.7.157,78,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.53908,192.167.7.157,79,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539083,192.167.7.157,80,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539085,192.167.7.157,81,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539087,192.167.7.157,82,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539089,192.167.7.157,83,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539091,192.167.7.157,84,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539291,192.167.7.157,85,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539293,192.167.7.157,86,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539297,192.167.7.157,87,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539299,192.167.7.157,88,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539301,192.167.7.157,89,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539495,192.167.7.157,90,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539498,192.167.7.157,91,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.5395,192.167.7.157,92,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539502,192.167.7.157,93,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.539504,192.167.7.157,94,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.53961,192.167.7.157,95,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.548168,192.167.7.157,96,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.548171,192.167.7.157,97,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.54842,192.167.7.157,98,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"
+42.548423,192.167.7.157,99,255.255.255.255,ICMP,60,"Echo (ping) reply    id=0xc0a7, seq=1949/40199, ttl=255"

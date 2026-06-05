@@ -1,0 +1,7 @@
+name: Pijak_Workflow_CI_Advanced
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: "python modelling.py"

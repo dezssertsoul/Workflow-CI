@@ -1,0 +1,5 @@
+Tautan Repositori Docker Hub (Advance):
+https://hub.docker.com/r/dezssertsoul/sml-traffic-classifier-ci
+
+Perintah CLI untuk Build Docker Image via MLflow:
+mlflow models build-docker -m "runs:/<run_id>/model" -n "dezssertsoul/sml-traffic-classifier-ci:latest"

@@ -14,22 +14,26 @@ import mlflow
 import mlflow.sklearn
 
 def main():
-   
     REPO_OWNER = 'dezssertsoul'  
     REPO_NAME = 'Eksperimen_SML_Reza-Rahmawati'
 
-    print("[INFO] Menghubungkan ke DagsHub...")
+    print("[INFO] Menghubungkan ke DagsHub via Token Bypass...")
     os.environ['MLFLOW_TRACKING_USERNAME'] = REPO_OWNER
     os.environ['MLFLOW_TRACKING_PASSWORD'] = os.getenv('DAGSHUB_CLIENT_TOKEN', '')
     mlflow.set_tracking_uri(f"https://dagshub.com/{REPO_OWNER}/{REPO_NAME}.mlflow")
 
     # Membaca dataset lokal
     data_path = 'Midterm_53_group_preprocessed.csv'
+    if not os.path.exists(data_path):
+        print(f"[ERROR] File {data_path} tidak ditemukan!")
+        return
+
     df = pd.read_csv(data_path)
 
     X = df.iloc[:, :-1]
     y = df.iloc[:, -1]
 
+    # Label encoding otomatis untuk kolom text/object
     for col in X.columns:
         if X[col].dtype == 'object':
             X[col] = LabelEncoder().fit_transform(X[col].astype(str))
@@ -42,6 +46,7 @@ def main():
     mlflow.set_experiment("CI_Automation_Project")
 
     with mlflow.start_run(run_name="MLflow_Project_Run"):
+        print("[INFO] Melatih model RandomForest...")
         model = RandomForestClassifier(n_estimators=120, max_depth=12, random_state=42)
         model.fit(X_train, y_train)
 

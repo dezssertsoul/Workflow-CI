@@ -19,7 +19,9 @@ def main():
     REPO_NAME = 'Eksperimen_SML_Reza-Rahmawati'
 
     print("[INFO] Menghubungkan ke DagsHub...")
-    dagshub.init(repo_owner=REPO_OWNER, repo_name=REPO_NAME, mlflow=True)
+    os.environ['MLFLOW_TRACKING_USERNAME'] = REPO_OWNER
+    os.environ['MLFLOW_TRACKING_PASSWORD'] = os.getenv('DAGSHUB_CLIENT_TOKEN', '')
+    mlflow.set_tracking_uri(f"https://dagshub.com/{REPO_OWNER}/{REPO_NAME}.mlflow")
 
     # Membaca dataset lokal
     data_path = 'Midterm_53_group_preprocessed.csv'

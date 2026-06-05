@@ -9,18 +9,12 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
 from sklearn.preprocessing import LabelEncoder
 
-import dagshub
 import mlflow
 import mlflow.sklearn
 
 def main():
-    REPO_OWNER = 'dezssertsoul'  
-    REPO_NAME = 'Eksperimen_SML_Reza-Rahmawati'
-
-    print("[INFO] Menghubungkan ke DagsHub via Token Bypass...")
-    os.environ['MLFLOW_TRACKING_USERNAME'] = REPO_OWNER
-    os.environ['MLFLOW_TRACKING_PASSWORD'] = os.getenv('DAGSHUB_CLIENT_TOKEN', '')
-    mlflow.set_tracking_uri(f"https://dagshub.com/{REPO_OWNER}/{REPO_NAME}.mlflow")
+    print("[INFO] Menjalankan MLflow CI Tracking secara lokal di Runner...")
+    mlflow.set_tracking_uri("file:///tmp/mlruns")
 
     # Membaca dataset lokal
     data_path = 'Midterm_53_group_preprocessed.csv'
@@ -43,7 +37,8 @@ def main():
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    mlflow.set_experiment("Eksperimen_Modelling_Tuning")
+    # Set nama eksperimen secara lokal
+    mlflow.set_experiment("CI_Automation_Project_Local")
 
     with mlflow.start_run(run_name="MLflow_Project_Run"):
         print("[INFO] Melatih model RandomForest...")

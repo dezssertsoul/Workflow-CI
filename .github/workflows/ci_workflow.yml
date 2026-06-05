@@ -30,10 +30,12 @@ jobs:
         pip install pandas mlflow==2.19.0 scikit-learn dagshub matplotlib
 
     - name: Run mlflow project
+      env:
+        DAGSHUB_CLIENT_TOKEN: ${{ secrets.DAGSHUB_TOKEN }}
       run: |
         cd MLProject
         mlflow run . --env-manager local
-
+        
     - name: Get latest MLflow run_id
       run: |
         echo "Mengambil run ID terbaru untuk kebutuhan build docker image..."

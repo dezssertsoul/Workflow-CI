@@ -1,6 +1,6 @@
-name: Eksperimen_SML_Reza_Rahmawati
+name: Proyek_SML_Reza_Rahmawati
 
-conda_env: null
+conda_env: conda.yaml
 
 entry_points:
   main:

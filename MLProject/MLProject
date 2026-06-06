@@ -1,6 +1,6 @@
-name: Pijak_Workflow_CI_Advanced
+name: Eksperimen_SML_Reza_Rahmawati
 
-conda_env: conda.yaml
+conda_env: null
 
 entry_points:
   main:
